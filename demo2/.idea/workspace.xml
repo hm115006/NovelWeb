@@ -264,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.demo2">
+  <component name="RunManager">
     <configuration name="book_0149.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/demo2/novel/templates/book_0149.html" />
     <configuration name="book_info.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/demo2/novel/templates/book_info.html" />
     <configuration name="demo2" type="Python.DjangoServer" factoryName="Django server">
@@ -290,11 +290,6 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
     </configuration>
-    <list>
-      <item itemvalue="Django server.demo2" />
-      <item itemvalue="JavaScript Debug.book_0149.html" />
-      <item itemvalue="JavaScript Debug.book_info.html" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
