@@ -19,9 +19,9 @@ from novel import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-	url(r'^$',views.index),
-	url(r'^book_info/(?P<novelid>\d+)$',views.book_info,name='book_info'),
-    url(r'^book_info/book/(?P<chapterid>\d+)$',views.chapter,name='chapter'),
-	url(r'^/search$',views.search,name='search'),
-	url(r'^book_info/sort$',views.sort,name='sort'),
+    url(r'^$', views.index),
+    url(r'^book_info/(?P<novelid>\d+)$', views.book_info, name='book_info'),
+    url(r'^book_info/book/(?P<novelid>\d+)/(?P<chapterid>\d+)/$', views.chapter, name='chapter'),
+    url(r'^/search$', views.search, name='search'),
+    url(r'^book_info/sort$', views.sort, name='sort'),
 ]

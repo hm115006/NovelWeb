@@ -24,6 +24,11 @@
 <!--[if lt IE 9]>
 <script src="{% static 'js/html5.js' %}"></script>
 <![endif]-->
+    <script type="text/javascript">
+        <!--
+        var indexPath = "http://www.hanmeimei.work"
+        -->
+    </script>
 <script language="javascript" type="text/javascript"  src="{% static 'js/jquery-1.js' %}"></script>
 <script language="javascript" type="text/javascript"  src="{% static 'js/index.js' %}"></script>
 <script language="javascript" type="text/javascript"  src="{% static 'js/common.js' %}"></script>
@@ -38,7 +43,7 @@
   <header id="global-head">
     <div>
       <nav class="site-navigation cf">
-	  <a class="home" href="http://www.quanshuwang.com">首页</a>
+	  <a class="home" href="javascript:location.href=indexPath">首页</a>
 	  <a href="/shuku/">书库榜单</a>
 	  <a href="http://m.quanshuwang.com">全书手机站</a>
 	  </nav>
@@ -55,7 +60,7 @@
 		</span>
 		</div>
     </div>
-    <p class="site-logo"><a href="http://www.quanshuwang.com" title="免费小说网"><img src="{% static 'images/logo-medium.png' %}" alt="免费小说网 - logo"></a></p>
+    <p class="site-logo"><a href="javascript:location.href=indexPath" title="免费小说网"><img src="{% static 'images/logo-medium.png' %}" alt="免费小说网 - logo"></a></p>
     <div class="site-search">
        <form action="{% url 'search' %}" method="post" target="_blank">{% csrf_token %}
        <input name="searchkey" type="text" id="bdcsMain" onFocus="this.classname='over';if (value =='这是一个搜索'){value =''}" onBlur="this.classname='input'"  value="这是一个搜索" />
@@ -69,27 +74,7 @@
       </form>
     </div>
 </header>
-  <div id="channel-header" class="clearfix">
-    <div class="channel-header-wrapper">
-      <div class="channel-logo"><a href="http://www.quanshuwang.com" title="全书网">全书网</a></div>
-      <nav class="channel-nav">
-        <ul class="channel-nav-list">
-  <li><a href="{% url 'sort' %}">玄幻魔法</a></li>
-  <li><a href="http://www.quanshuwang.com/list/2_1.html">武侠修真</a></li>
-  <li><a href="http://www.quanshuwang.com/list/3_1.html">纯爱耽美</a></li>
-  <li><a href="http://www.quanshuwang.com/list/4_1.html">都市言情</a></li>
-  <li><a href="http://www.quanshuwang.com/list/5_1.html">职场校园</a></li>
-  <li><a href="http://www.quanshuwang.com/list/6_1.html">穿越重生</a></li>
-  <li><a href="http://www.quanshuwang.com/list/7_1.html">历史军事</a></li>
-  <li><a href="http://www.quanshuwang.com/list/8_1.html">网游动漫</a></li>
-  <li><a href="http://www.quanshuwang.com/list/9_1.html">恐怖灵异</a></li>
-  <li><a href="http://www.quanshuwang.com/list/10_1.html">科幻小说</a></li>
-  <li><a href="http://www.quanshuwang.com/list/11_1.html">美文名著</a></li>
-  <li><a href="http://www.quanshuwang.com/list/12_1.html">热门推荐</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
+
  <div id="container">
    <div style="margin:1px 1px 6px 1px;text-align:center;"><script type="text/javascript">index1();</script></div>
     <section class="section board-list board-list-collapse">
@@ -97,13 +82,13 @@
 	  </div>
       <ul class="b-all-content cf">
 {% for novel in novels %}
-<li><a target="_blank" href="{% url 'book_info' novel.novelid %}" title="{{ novel.novelname }}" class="msgBorder"><img src="{{ novel.novelimg }}" width="120" height="150"></a><img src="{% if novel.status == '连载' %}{% static 'images/only2.png' %}{% else %}{% static 'images/only.png' %}{% endif %}" class="topss png_bg"><a href="{% url 'book_info' novel.novelid %}" title="{{ novel.novelname }}" class="clearfix">{{ novel.novelname }}</a>类别：<a href="/list/9_1.html">{{ novel.sort }}</a><br>作者：{{ novel.author }}</li>
+<li><a target="_blank" href="{% url 'book_info' novel.novelid %}" title="{{ novel.name }}" class="msgBorder"><img src="{{ novel.img }}" width="120" height="150"></a><img src="{% if novel.status == '连载' %}{% static 'images/only2.png' %}{% else %}{% static 'images/only.png' %}{% endif %}" class="topss png_bg"><a href="{% url 'book_info' novel.novelid %}" title="{{ novel.name }}" class="clearfix">{{ novel.name }}</a>类别：<a href="/list/9_1.html">{{ novel.sort }}</a><br>作者：{{ novel.author }}</li>
 {% endfor %}
       </ul>
       <ul class="b-all-content cf">
 
 {% for novel in novels2 %}
-<li><a target="_blank" href="{% url 'book_info' novel.novelid %}" title="{{ novel.novelname }}" class="msgBorder"><img src="{{ novel.novelimg }}" width="120" height="150"></a><img src="{% if novel.status == '连载' %}{% static 'images/only2.png' %}{% else %}{% static 'images/only.png' %}{% endif %}" class="topss png_bg"><a href="{% url 'book_info' novel.novelid %}" title="{{ novel.novelname }}" class="clearfix">{{ novel.novelname }}</a>类别：<a href="/list/9_1.html">{{ novel.sort }}</a><br>作者：{{ novel.author }}</li>
+<li><a target="_blank" href="{% url 'book_info' novel.novelid %}" title="{{ novel.name }}" class="msgBorder"><img src="{{ novel.img }}" width="120" height="150"></a><img src="{% if novel.status == '连载' %}{% static 'images/only2.png' %}{% else %}{% static 'images/only.png' %}{% endif %}" class="topss png_bg"><a href="{% url 'book_info' novel.novelid %}" title="{{ novel.name }}" class="clearfix">{{ novel.name }}</a>类别：<a href="/list/9_1.html">{{ novel.sort }}</a><br>作者：{{ novel.author }}</li>
 {% endfor %}
       </ul>
    <div style="margin:6px 1px 6px 1px;text-align:center;"><script type="text/javascript">index2();</script></div>
@@ -120,7 +105,7 @@
       </div>
     </section>
   </div>
-  <footer id="global-foot"> &#169;Copyright http://www.quanshuwang.com 全书网 2012, All rights reserved <br>全网小说均由网友转载于网络，若转载中的书本侵犯了您的权益，请于本站管理员联系。 邮箱：1150160673@qq.com。地址：湖南省益阳市<br>
+  <footer id="global-foot"> &#169;Copyright http://www.quanshuwang.com 全书网 2012, All rights reserved <br>全网小说均由网友转载于网络，若转载中的书本侵犯了您的权益，请于本站管理员联系。 邮箱：1150060673@qq.com。地址：浙江省杭州市<br>
   <a href="/api/baidu_sitemap.php?page=1&update=2" target="_blank">Sitemap</a> | <a href="/map/1.html" target="_blank">网站地图</a> | <script type="text/javascript">tongji();</script>  |  蜀ICP备12018289号-3
   </footer>
 </div>

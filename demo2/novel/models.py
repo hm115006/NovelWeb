@@ -6,121 +6,29 @@
 #   * Remove `managed = False` lines if you wish to allow Django to create, modify, and delete the table
 # Feel free to rename the models, but don't rename db_table values or field names.
 from __future__ import unicode_literals
-
+from mongoengine import *
 from django.db import models
 
-
-class Chapter(models.Model):
-    novelid = models.CharField(max_length=100)
-    name1 = models.CharField(max_length=100)
-    sort = models.CharField(max_length=100)
-    chapterid = models.IntegerField()
-    title = models.CharField(primary_key=True, max_length=100)
-    content = models.TextField()
-
-    class Meta:
-        managed = False
-        db_table = 'chapter'
-
-
-class ChapterCopy(models.Model):
-    novelid = models.CharField(max_length=100)
-    name1 = models.CharField(max_length=100)
-    sort = models.CharField(max_length=100)
-    chapterid = models.IntegerField()
-    title = models.CharField(primary_key=True, max_length=100)
-    content = models.TextField()
-
-    class Meta:
-        managed = False
-        db_table = 'chapter_copy'
+class novel_info(Document):
+    # 定义数据库中的所有字段
+    _id = IntField(primary_key=True)
+    sort = StringField()
+    name = StringField()
+    author = StringField()
+    status = StringField()
+    description = StringField()
+    img = StringField()
+    novelid = IntField()
+    # 指明连接的数据表名
+    meta = {'collection': 'novel_info'}
 
 
-class ChapterCopy1(models.Model):
-    name1 = models.CharField(max_length=100)
-    chapterid = models.IntegerField(primary_key=True)
-    title = models.CharField(max_length=100)
-    content = models.TextField()
-
-    class Meta:
-        managed = False
-        db_table = 'chapter_copy1'
-
-
-class Chaptertest(models.Model):
-    novelid = models.IntegerField()
-    name1 = models.CharField(max_length=100)
-    sort = models.CharField(max_length=100)
-    chapterid = models.IntegerField(primary_key=True)
-    title = models.CharField(max_length=100)
-    content = models.TextField()
-
-    class Meta:
-        managed = False
-        db_table = 'chaptertest'
-
-
-class DjangoMigrations(models.Model):
-    app = models.CharField(max_length=255)
-    name = models.CharField(max_length=255)
-    applied = models.DateTimeField()
-
-    class Meta:
-        managed = False
-        db_table = 'django_migrations'
-
-
-class Novel(models.Model):
-    novelid = models.CharField(primary_key=True, max_length=100)
-    sort = models.CharField(max_length=20)
-    novelname = models.CharField(max_length=100)
-    novelimg = models.CharField(max_length=100)
-    description = models.TextField()
-    status = models.CharField(max_length=20)
-    author = models.CharField(max_length=20)
-
-    class Meta:
-        managed = False
-        db_table = 'novel'
-
-
-class NovelCopy(models.Model):
-    novelid = models.CharField(primary_key=True, max_length=100)
-    sort = models.CharField(max_length=20)
-    novelname = models.CharField(max_length=100)
-    novelimg = models.CharField(max_length=100)
-    description = models.TextField()
-    status = models.CharField(max_length=20)
-    author = models.CharField(max_length=20)
-
-    class Meta:
-        managed = False
-        db_table = 'novel_copy'
-
-
-class NovelCopy1(models.Model):
-    novelid = models.AutoField(primary_key=True)
-    sort = models.CharField(max_length=20)
-    novelname = models.CharField(max_length=100)
-    novelimg = models.CharField(max_length=100)
-    description = models.TextField()
-    status = models.CharField(max_length=20)
-    author = models.CharField(max_length=20)
-
-    class Meta:
-        managed = False
-        db_table = 'novel_copy1'
-
-
-class Noveltest(models.Model):
-    novelid = models.IntegerField(primary_key=True)
-    sort = models.CharField(max_length=20)
-    novelname = models.CharField(max_length=100)
-    novelimg = models.CharField(max_length=100)
-    description = models.TextField()
-    status = models.CharField(max_length=20)
-    author = models.CharField(max_length=20)
-
-    class Meta:
-        managed = False
-        db_table = 'noveltest'
+class chapter_info(Document):
+    _id = IntField()
+    novelid = IntField()
+    novelnane = StringField()
+    sort = StringField()
+    order_id = IntField()
+    chapter_name = StringField()
+    chapter_content = StringField()
+    meta = {'collection': 'chapter_info'}
