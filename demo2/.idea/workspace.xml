@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3f19a29-3ceb-4871-94b5-bf7ee444236b" name="Default" comment="vesion_Mongdb_ignore">
+    <list default="true" id="c3f19a29-3ceb-4871-94b5-bf7ee444236b" name="Default" comment="vesion_Mongdb_ignore2">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/15a98ada-5477-4b9d-ae9c-1f42ad8d3f6f.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../noveltest.sql" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/novel/templates/chapter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1665">
+            <state relative-caret-position="393">
               <caret line="111" column="549" selection-start-line="111" selection-start-column="549" selection-end-line="111" selection-end-column="549" />
             </state>
           </provider>
@@ -84,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="68">
+              <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -194,7 +192,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="384" />
+    <option name="x" value="403" />
     <option name="y" value="23" />
     <option name="width" value="1037" />
     <option name="height" value="877" />
@@ -334,7 +332,7 @@
       <workItem from="1563714755134" duration="23712000" />
       <workItem from="1563957552941" duration="11293000" />
       <workItem from="1563969778199" duration="1301000" />
-      <workItem from="1563971173368" duration="4145000" />
+      <workItem from="1563971173368" duration="4706000" />
     </task>
     <task id="LOCAL-00001" summary="vesion_Mongdb">
       <created>1563972255769</created>
@@ -350,11 +348,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563972828426</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="vesion_Mongdb_ignore2">
+      <created>1563975604086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563975604086</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41339000" />
+    <option name="totallyTimeSpent" value="41900000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,7 +371,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="384" y="23" width="1037" height="877" extended-state="0" />
+    <frame x="501" y="23" width="1037" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8016667" visible="true" weight="0.20301507" />
@@ -441,7 +446,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vesion_Mongdb" />
     <MESSAGE value="vesion_Mongdb_ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="vesion_Mongdb_ignore" />
+    <MESSAGE value="vesion_Mongdb_ignore2" />
+    <option name="LAST_COMMIT_MESSAGE" value="vesion_Mongdb_ignore2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -705,15 +711,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/novel/templates/chapter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
+        <state relative-caret-position="393">
           <caret line="111" column="549" selection-start-line="111" selection-start-column="549" selection-end-line="111" selection-end-column="549" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
         </state>
       </provider>
     </entry>
