@@ -1,0 +1,136 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<!--<![endif]-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="mobile-agent" content="format=xhtml; url=http://m.quanshuwang.com/mbook/0/9055/9674264.html" />
+<meta http-equiv="mobile-agent" content="format=html5; url=http://m.quanshuwang.com/mbook/0/9055/9674264.html" />
+<script src="{%static 'js/mm.js'%}" type="text/javascript"></script>
+
+<title>{{ chapters.novelnane }}_{{ chapters.chapter_name }}</title>
+<meta name="keywords" content="{{ chapters.novelnane }} 最新章节_{{ chapters.chapter_name }}" />
+<meta name="description" content="{{ chapters.novelnane }} 最新章节阅读:{{ chapters.chapter_name }}" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="renderer" content="webkit">
+<meta name="applicable-device" content="pc">
+<meta name="robots" content="all">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link href="{% static 'css/common.css' %}" rel="stylesheet" type="text/css">
+<link href="{% static 'css/board.css' %}" rel="stylesheet" type="text/css">
+<link href="{% static 'css/readtools.css' %}" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript"  src="{% static 'js/jquery-1.js' %}"></script>
+<script language="javascript" type="text/javascript"  src="{% static 'js/index.js' %}"></script>
+<script language="javascript" type="text/javascript"  src="{% static 'js/ku.js' %}"></script>
+<script src="{% static 'js/jquery-1.7.1.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/jquery.cookie.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/jquery.tools.min1.2.5.js' %}" type="text/javascript"></script>
+<script language="javascript" type="text/javascript"  src="{% static 'js/tools.js' %}"></script>
+<script language="javascript" type="text/javascript"  src="{% static 'js/common.js' %}"></script>
+<!--[if lt IE 9]>
+<script src="{% static 'js/html5.js' %}"></script>
+<![endif]-->
+<script type="text/javascript">
+<!--
+var indexPath = "http://www.hanmeimei.work"
+
+{% for chapter in chapters1 %}
+var preview_page = indexPath+"/{{ chapter.novelid }}/{{ chapter.order_id}}";
+{% endfor %}
+{% for chapter in chapters2 %}
+var next_page = indexPath+"/book_info/book/{{ chapter.novelid }}/{{ chapter.order_id}}";
+{% endfor %}
+{% for chapter in chapters %}
+var index_page = indexPath+"/book_info/{{ chapter.novelid }}";
+{% endfor %}
+{% for chapter in chapters %}
+var article_id = "{{ chapter.novelid }}";
+var chapter_id = "{{ chapter.order_id }}";
+var article_name = "{{ chapter.novelnane }}";
+var chapter_name = "正文 {{ chapter.chapter_name }}";
+{% endfor %}
+function jumpPage() {
+  var event = document.all ? window.event : arguments[0];
+  if (event.keyCode == 37) document.location = preview_page;
+  if (event.keyCode == 39) document.location = next_page;
+  if (event.keyCode == 13) document.location = index_page;
+}
+document.onkeydown=jumpPage;
+-->
+</script>
+</head>
+<body>
+<div id="wrapper">
+  <div class="shadow" style="height:1px;"></div>
+  <header id="global-head" style="height:32px;">
+    <div>
+      <nav class="site-navigation cf">
+	  <a class="home" href="javascript:location.href=indexPath">首页</a>
+	  <a href="/shuku/">书库榜单</a>
+	  <a href="http://m.quanshuwang.com">小说手机站</a>
+	  </nav>
+     <div class="hd-follow" style="width:400px;">
+	<div class="myhide"><a href="javascript:;" class="hides">浏览记录</a>
+		<div class="hideInfo">
+		<script type="text/javascript" src="{% static 'js/json2.js' %}"></script>
+		<script type="text/javascript" src="{% static 'js/readshow.js' %}"></script>
+		<p>*提示：浏览记录仅放置最近浏览的10本书籍</p>
+		</div>
+	</div>
+        <span id="checklogin">
+			<script language="javascript" src="{% static 'js/denglu.js' %}"></script>
+		</span>
+		</div>
+    </div>
+</header>
+  <div id="channel-header" class="clearfix"  style="margin-top:1px;">
+    <div class="channel-header-wrapper">
+      <div class="channel-logo"><a href="javascript:location.href=indexPath" title="小说网">小说网</a></div>
+    </div>
+  </div>
+   <script type="text/javascript">style1();</script>
+<div id="container">
+   <script type="text/javascript">style2();</script>
+{% for chapter in chapters %}
+<div class="mainnav"><div class="main-index" id="direct"><span class="r mr10"> <form action="{% url 'search' %}" method="post" target="_blank">{% csrf_token %}搜小说：<input type="text" name="searchkey" value="" id="bdcsMain"/><button type="submit" >搜</button></form></span>位置：<a href="/" class="c009900">小说网</a> > <a href="/modules/article/articlelist.php?class=9">{{ chapter.sort }}</a>  > <a href="/book_9055.html" class="article_title">{{ chapter.novelnane }}小说</a>  > 正文 {{ chapter.chapter_name }}</div>
+      <section class="main b-detail" id="directs"><div class="bookInfo"><h1>
+	  <span class="r">	  </span>
+	  <em class="l">《{{ chapter.novelnane }}》</em><strong class="l jieqi_title">正文 {{ chapter.chapter_name }}</strong>
+            <div class="clear"></div></h1>
+<div class="toolbar"><script language="JavaScript" src="{% static 'js/toolbar.js' %}" type="text/javascript"></script></div>
+<div class="mainContenr"   id="content"><script type="text/javascript">style5();</script>&nbsp;&nbsp;&nbsp;{{ chapter.chapter_content | safe}}<script type="text/javascript">style6();</script></div>
+<div style="margin:6px 1px 6px 1px;text-align:center;"><script type="text/javascript">style7();</script></div>
+{% endfor %}
+
+<div class="backs"><a href="javascript:location.href={% if chapters_id == 1 %}index_page {% else %} preview_page {% endif %}" class="pre" >上一章</a><a href="javascript:location.href=index_page" class="backfor">返回目录</a><a href="javascript:location.href=next_page" class="next">下一章</a><p>小提示： 按←键返回上一页，按→键进入上一页,您还可以<a href="/modules/article/addbookcase.php?bid=9055&cid=" title="加入书签"  target="_blank">〖加入书签〗</a><a href="/newmessage.php?tosys=1&amp;title=盗墓笔记-章节错误&amp;content=错误章节：正文 第一章 失踪  举报原因如下： " title="举报错误"  target="_blank">〖举报错误〗</a></p></div>
+
+</div>
+
+      <div style="margin:6px 1px 6px 1px;text-align:center;"><script type="text/javascript">style4();</script></div>
+	  </section>
+    </div>
+
+   <script type="text/javascript">style9();</script>
+<div class="attention"><em>阅读提示：</em><br/>
+1、本站会员登录后，将免费体会到最顺畅的阅读方式[<em>最少广告</em>]。<br/>
+{%for novel in novels %}
+2、<em>注册本站会员</em>，将《<a href="/book_info/{{ novel.novelid }}" class="article_title"><em>{{ novel.name }}</em></a>》加入书架，可以通过书架更快的了解更新信息。<br/>
+3、免费小说《<a href="/book_info/{{ novel.novelid }}" class="article_title"><em>{{ novel.name }}</em></a>》 正文 小说 所描述的内容只是作者 作者个人观点，与本站的立场无关，本站只为广大用户提供阅读平台。
+{% endfor %}
+</div>
+</div></div>
+<script type="text/javascript">replace();</script>
+<script type="text/javascript" src="{% static 'js/readset.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/readlog.js' %}"></script>
+<script type="text/javascript">duilian();</script>
+<script type="text/javascript">baidusearch();</script>
+<script type="text/javascript">style10();</script>
+</body>
+</html>
