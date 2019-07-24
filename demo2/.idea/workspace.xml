@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3f19a29-3ceb-4871-94b5-bf7ee444236b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/demo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demo2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c3f19a29-3ceb-4871-94b5-bf7ee444236b" name="Default" comment="vesion_Mongdb_ignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/15a98ada-5477-4b9d-ae9c-1f42ad8d3f6f.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/novel/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/novel/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novel/templates/book_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/novel/templates/book_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novel/templates/chapter.html" beforeDir="false" afterPath="$PROJECT_DIR$/novel/templates/chapter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novel/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/novel/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novel/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/novel/templates/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novel/templates/sort.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/novel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/novel/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../noveltest.sql" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="315">
               <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="e#639#671#0" expanded="true" />
@@ -67,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/novel/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="105">
               <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
                 <element signature="e#468#507#0" expanded="true" />
@@ -79,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/novel/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="330">
               <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
@@ -88,11 +72,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/novel/templates/chapter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="103" column="33" lean-forward="true" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+            <state relative-caret-position="1665">
+              <caret line="111" column="549" selection-start-line="111" selection-start-column="549" selection-end-line="111" selection-end-column="549" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -109,7 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ku</find>
       <find>container</find>
       <find>搜索</find>
       <find>src</find>
@@ -139,6 +131,7 @@
       <find>_id</find>
       <find>首页</find>
       <find>home</find>
+      <find>*.pyc</find>
     </findStrings>
     <replaceStrings>
       <replace>{% static 'images/(.*?) %}</replace>
@@ -160,10 +153,15 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="hmm" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="version2_mongo" />
+        <entry key="$PROJECT_DIR$/.." value="Web_Mongodb" />
       </map>
     </option>
   </component>
@@ -189,14 +187,14 @@
         <option value="$PROJECT_DIR$/novel/templates/book_info.html" />
         <option value="$PROJECT_DIR$/novel/templates/search.html" />
         <option value="$PROJECT_DIR$/novel/templates/chapter.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/demo2/settings.py" />
         <option value="$PROJECT_DIR$/novel/models.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="311" />
+    <option name="x" value="384" />
     <option name="y" value="23" />
     <option name="width" value="1037" />
     <option name="height" value="877" />
@@ -240,6 +238,11 @@
               <item name="demo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Downloads/NovPro/xiaoshuo/NovelWeb/demo2" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
+            <path>
+              <item name="demo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Downloads/NovPro/xiaoshuo/NovelWeb/demo2" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="novel" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -250,11 +253,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
+    <property name="settings.editor.selected.configurable" value="Ignore Files Support" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -309,6 +313,12 @@
       <item itemvalue="JavaScript Debug.book_0149.html" />
       <item itemvalue="JavaScript Debug.book_info.html" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.book_info.html" />
+        <item itemvalue="JavaScript Debug.book_0149.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
@@ -324,12 +334,27 @@
       <workItem from="1563714755134" duration="23712000" />
       <workItem from="1563957552941" duration="11293000" />
       <workItem from="1563969778199" duration="1301000" />
-      <workItem from="1563971173368" duration="793000" />
+      <workItem from="1563971173368" duration="4145000" />
     </task>
+    <task id="LOCAL-00001" summary="vesion_Mongdb">
+      <created>1563972255769</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563972255769</updated>
+    </task>
+    <task id="LOCAL-00002" summary="vesion_Mongdb_ignore">
+      <created>1563972828426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563972828426</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37987000" />
+    <option name="totallyTimeSpent" value="41339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -341,7 +366,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="311" y="23" width="1037" height="877" extended-state="0" />
+    <frame x="384" y="23" width="1037" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8016667" visible="true" weight="0.20301507" />
       <window_info id="Structure" order="1" sideWeight="0.19833334" side_tool="true" weight="0.14449213" />
@@ -353,13 +379,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49910715" weight="0.32866243" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49447235" weight="0.3299363" />
       <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.4914163" weight="0.4313253" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.29299363" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49849245" visible="true" weight="0.29299363" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.2295345" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50858366" side_tool="true" weight="0.4313253" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5015075" side_tool="true" visible="true" weight="0.29299363" />
       <window_info anchor="bottom" id="Run Dashboard" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -411,6 +437,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="vesion_Mongdb" />
+    <MESSAGE value="vesion_Mongdb_ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="vesion_Mongdb_ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -628,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -651,7 +675,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="315">
           <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
             <element signature="e#639#671#0" expanded="true" />
@@ -661,7 +685,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/novel/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="105">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="e#468#507#0" expanded="true" />
@@ -671,7 +695,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/novel/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="330">
           <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
@@ -681,8 +705,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/novel/templates/chapter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="103" column="33" lean-forward="true" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+        <state relative-caret-position="1665">
+          <caret line="111" column="549" selection-start-line="111" selection-start-column="549" selection-end-line="111" selection-end-column="549" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
