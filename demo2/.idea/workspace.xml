@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3f19a29-3ceb-4871-94b5-bf7ee444236b" name="Default" comment="vesion_Mongdb_ignore2">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c3f19a29-3ceb-4871-94b5-bf7ee444236b" name="Default" comment="vesion_Mongdb_ignore2" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/novel/templates/chapter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
+            <state relative-caret-position="1665">
               <caret line="111" column="549" selection-start-line="111" selection-start-column="549" selection-end-line="111" selection-end-column="549" />
             </state>
           </provider>
@@ -82,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+            <state relative-caret-position="128">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
@@ -203,6 +200,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="demo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Downloads/NovPro/xiaoshuo/NovelWeb/demo2" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="demo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Downloads/NovPro/xiaoshuo/NovelWeb/demo2" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="novel" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,22 +237,6 @@
               <item name="demo2" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo2" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="demo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Downloads/NovPro/xiaoshuo/NovelWeb/demo2" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="demo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Downloads/NovPro/xiaoshuo/NovelWeb/demo2" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="novel" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -333,6 +330,7 @@
       <workItem from="1563957552941" duration="11293000" />
       <workItem from="1563969778199" duration="1301000" />
       <workItem from="1563971173368" duration="4706000" />
+      <workItem from="1563976202757" duration="230000" />
     </task>
     <task id="LOCAL-00001" summary="vesion_Mongdb">
       <created>1563972255769</created>
@@ -359,7 +357,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41900000" />
+    <option name="totallyTimeSpent" value="42130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -371,8 +369,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="501" y="23" width="1037" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="403" y="23" width="1037" height="877" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8016667" visible="true" weight="0.20301507" />
       <window_info id="Structure" order="1" sideWeight="0.19833334" side_tool="true" weight="0.14449213" />
@@ -384,13 +381,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49910715" weight="0.32866243" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49447235" weight="0.3299363" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49346733" weight="0.3299363" />
       <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.4914163" weight="0.4313253" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49849245" visible="true" weight="0.29299363" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4964824" visible="true" weight="0.29299363" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.2295345" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5015075" side_tool="true" visible="true" weight="0.29299363" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50351757" side_tool="true" visible="true" weight="0.29299363" />
       <window_info anchor="bottom" id="Run Dashboard" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -711,15 +708,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/novel/templates/chapter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
+        <state relative-caret-position="1665">
           <caret line="111" column="549" selection-start-line="111" selection-start-column="549" selection-end-line="111" selection-end-column="549" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+        <state relative-caret-position="128">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
